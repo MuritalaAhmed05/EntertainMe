@@ -142,7 +142,7 @@ export default function CustomSidenav() {
             font-semibold text-gray-800 transition-opacity duration-300
             ${isCollapsed && !isOpen ? 'opacity-0' : 'opacity-100'}
           `}>
-            Navigation
+            EntertainMe
           </h2>
         </div>
 
