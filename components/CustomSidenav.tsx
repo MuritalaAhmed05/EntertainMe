@@ -99,7 +99,7 @@ export default function CustomSidenav() {
       {isMobile && (
         <button
           onClick={toggleSidebar}
-          className="fixed top-4 left-4 z-50 p-2 bg-white rounded-lg shadow-md border border-gray-200"
+          className="fixed top-4 right-4 z-50 p-2 bg-white rounded-lg shadow-md border border-gray-200"
         >
           {isOpen ? (
             <X className="h-6 w-6 text-gray-600" />
@@ -137,7 +137,7 @@ export default function CustomSidenav() {
         )}
 
         {/* Header */}
-        <div className="p-4 border-b border-gray-200">
+        <div className="p-4 border-b border-gray-200 text-center">
           <h2 className={`
             font-semibold text-gray-800 transition-opacity duration-300
             ${isCollapsed && !isOpen ? 'opacity-0' : 'opacity-100'}
@@ -180,7 +180,7 @@ export default function CustomSidenav() {
                 {/* Tooltip for collapsed state - Only on desktop */}
                 {isCollapsed && !isMobile && !isOpen && (
                   <div className="
-                    absolute left-full ml-2 px-2 py-1
+                    absolute right-full ml-2 px-2 py-1
                     bg-gray-900 text-white text-sm rounded
                     opacity-0 group-hover:opacity-100
                     pointer-events-none transition-opacity duration-200
