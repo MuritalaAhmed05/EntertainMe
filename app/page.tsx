@@ -67,7 +67,7 @@ export default function HomePage() {
       
       <div className="flex-1">
         <h1 className="text-center text-2xl font-bold">Made with Love by💖 
-          <a href="https://wa.me/2349020507509" className='text-blue-600 underline'> Ahmed</a>
+          <a href="https://ahmedisawebdev.vercel.app/" target="_blank" rel="noopener noreferrer" className='text-blue-600 underline'> Ahmed</a>
         </h1>
         <div className="max-w-6xl mx-auto p-6">
           {/* Header Section */}
